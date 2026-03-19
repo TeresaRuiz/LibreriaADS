@@ -31,3 +31,5 @@ C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.csproj.GenerateReso
 C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.csproj.CoreCompileInputs.cache
 C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.exe
 C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.pdb
+C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.InicioCliente.resources
+C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.ProductosClientes.resources

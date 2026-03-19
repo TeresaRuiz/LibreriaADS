@@ -44,6 +44,7 @@
             this.panelContenido.Name = "panelContenido";
             this.panelContenido.Size = new System.Drawing.Size(1081, 831);
             this.panelContenido.TabIndex = 5;
+            this.panelContenido.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenido_Paint);
             // 
             // panelMenu
             // 
@@ -95,6 +96,7 @@
             this.btnInicio.TabIndex = 4;
             this.btnInicio.Text = "Inicio";
             this.btnInicio.UseVisualStyleBackColor = false;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // btnProducto
             // 
@@ -107,6 +109,7 @@
             this.btnProducto.TabIndex = 3;
             this.btnProducto.Text = "Producto";
             this.btnProducto.UseVisualStyleBackColor = true;
+            this.btnProducto.Click += new System.EventHandler(this.btnProducto_Click);
             // 
             // FormPrincipalCliente
             // 
@@ -118,6 +121,7 @@
             this.Name = "FormPrincipalCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPrincipalCliente";
+            this.Load += new System.EventHandler(this.FormPrincipalCliente_Load);
             this.panelMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 

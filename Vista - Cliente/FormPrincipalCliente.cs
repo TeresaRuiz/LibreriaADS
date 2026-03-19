@@ -36,5 +36,25 @@ namespace LibreriaADS
                 this.Hide();
             }
         }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new InicioCliente());
+        }
+
+        private void panelContenido_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FormPrincipalCliente_Load(object sender, EventArgs e)
+        {
+            MostrarControl(new InicioCliente());
+        }
+
+        private void btnProducto_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new ProductosClientes());
+        }
     }
 }
