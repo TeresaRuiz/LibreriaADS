@@ -52,57 +52,66 @@
     <Compile Include="Carga.Designer.cs">
       <DependentUpon>Carga.cs</DependentUpon>
     </Compile>
-    <Compile Include="Conexion.cs" />
+    <Compile Include="Sintaxis\Conexion.cs" />
+    <Compile Include="Creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creditos.Designer.cs">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPrincipalAdmin.cs">
+    <Compile Include="Vista - Admin\FormPrincipalAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPrincipalAdmin.Designer.cs">
+    <Compile Include="Vista - Admin\FormPrincipalAdmin.Designer.cs">
       <DependentUpon>FormPrincipalAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPrincipalCliente.cs">
+    <Compile Include="Vista - Cliente\FormPrincipalCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPrincipalCliente.Designer.cs">
+    <Compile Include="Vista - Cliente\FormPrincipalCliente.Designer.cs">
       <DependentUpon>FormPrincipalCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRegistroCliente.cs">
+    <Compile Include="Vista - Cliente\FormRegistroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRegistroCliente.Designer.cs">
+    <Compile Include="Vista - Cliente\FormRegistroCliente.Designer.cs">
       <DependentUpon>FormRegistroCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRegistro.cs">
+    <Compile Include="Vista - Admin\FormRegistro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRegistro.Designer.cs">
+    <Compile Include="Vista - Admin\FormRegistro.Designer.cs">
       <DependentUpon>FormRegistro.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Seguridad.cs" />
-    <Compile Include="Usuario.cs" />
+    <Compile Include="Sintaxis\Seguridad.cs" />
+    <Compile Include="Sintaxis\Usuario.cs" />
     <EmbeddedResource Include="Carga.resx">
       <DependentUpon>Carga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creditos.resx">
+      <DependentUpon>Creditos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPrincipalAdmin.resx">
+    <EmbeddedResource Include="Vista - Admin\FormPrincipalAdmin.resx">
       <DependentUpon>FormPrincipalAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPrincipalCliente.resx">
+    <EmbeddedResource Include="Vista - Cliente\FormPrincipalCliente.resx">
       <DependentUpon>FormPrincipalCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRegistroCliente.resx">
+    <EmbeddedResource Include="Vista - Cliente\FormRegistroCliente.resx">
       <DependentUpon>FormRegistroCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRegistro.resx">
+    <EmbeddedResource Include="Vista - Admin\FormRegistro.resx">
       <DependentUpon>FormRegistro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -127,5 +136,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

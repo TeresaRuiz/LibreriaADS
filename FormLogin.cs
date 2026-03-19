@@ -62,5 +62,12 @@ namespace LibreriaADS
             FormRegistroCliente cliente = new FormRegistroCliente();
             cliente.Show();
         }
+
+        private void btnCreditos_Click(object sender, EventArgs e)
+        {
+            Creditos creditos = new Creditos();
+            creditos.Show();
+            this.Hide();
+        }
     }
 }

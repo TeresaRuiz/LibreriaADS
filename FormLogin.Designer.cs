@@ -71,6 +71,7 @@
             this.btnCreditos.TabIndex = 69;
             this.btnCreditos.Text = "Créditos";
             this.btnCreditos.UseVisualStyleBackColor = false;
+            this.btnCreditos.Click += new System.EventHandler(this.btnCreditos_Click);
             // 
             // btnLogin
             // 
