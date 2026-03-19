@@ -1,0 +1,16 @@
+C:\Users\2022\Music\LibreriaADS\bin\Debug\LibreriaADS.exe.config
+C:\Users\2022\Music\LibreriaADS\bin\Debug\LibreriaADS.exe
+C:\Users\2022\Music\LibreriaADS\bin\Debug\LibreriaADS.pdb
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.csproj.AssemblyReference.cache
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.Carga.resources
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.FormLogin.resources
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.FormRegistro.resources
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.Properties.Resources.resources
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.csproj.GenerateResource.cache
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.csproj.CoreCompileInputs.cache
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.exe
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.pdb
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.exe.config
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.FormPrincipalAdmin.resources
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.FormPrincipalCliente.resources
+C:\Users\2022\Music\LibreriaADS\obj\Debug\LibreriaADS.FormRegistroCliente.resources
