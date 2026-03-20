@@ -32,11 +32,10 @@ namespace LibreriaADS
             string usuario = txtUsuario.Text;
             string clave = txtContrasena.Text;
 
-            int rol = 2; // 1 = ADMIN (primer uso)
-
+            int rol = 2; 
             dao.Registrar(nombre, telefono, direccion, usuario, clave, rol);
+            MessageBox.Show("Has sido registrado exitosamente");
 
-            MessageBox.Show("Administrador registrado");
 
             this.Hide();
             FormLogin login = new FormLogin();

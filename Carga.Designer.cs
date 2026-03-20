@@ -33,6 +33,8 @@
             this.bar_progres = new System.Windows.Forms.ProgressBar();
             this.hide = new System.Windows.Forms.Timer(this.components);
             this.animation = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // bar_progres
@@ -56,6 +58,16 @@
             this.animation.Interval = 30;
             this.animation.Tick += new System.EventHandler(this.animation_Tick);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(909, 400);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(162, 171);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // Carga
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -63,11 +75,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1070, 573);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.bar_progres);
             this.Name = "Carga";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Librería";
             this.Load += new System.EventHandler(this.Carga_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -76,6 +90,7 @@
         private System.Windows.Forms.ProgressBar bar_progres;
         private System.Windows.Forms.Timer hide;
         private System.Windows.Forms.Timer animation;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
