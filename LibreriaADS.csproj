@@ -65,11 +65,35 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vista - Admin\Categoria.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vista - Admin\Categoria.Designer.cs">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista - Admin\FormPrincipalAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vista - Admin\FormPrincipalAdmin.Designer.cs">
       <DependentUpon>FormPrincipalAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista - Admin\Inicio.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vista - Admin\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista - Admin\Marca.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vista - Admin\Marca.Designer.cs">
+      <DependentUpon>Marca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista - Admin\PantallaColor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vista - Admin\PantallaColor.Designer.cs">
+      <DependentUpon>PantallaColor.cs</DependentUpon>
     </Compile>
     <Compile Include="Vista - Cliente\FormPrincipalCliente.cs">
       <SubType>Form</SubType>
@@ -93,6 +117,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sintaxis\Seguridad.cs" />
     <Compile Include="Sintaxis\Usuario.cs" />
+    <Compile Include="Vista - Cliente\HistorialClientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vista - Cliente\HistorialClientes.Designer.cs">
+      <DependentUpon>HistorialClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista - Cliente\InicioCliente.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -114,8 +144,20 @@
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vista - Admin\Categoria.resx">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista - Admin\FormPrincipalAdmin.resx">
       <DependentUpon>FormPrincipalAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista - Admin\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista - Admin\Marca.resx">
+      <DependentUpon>Marca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista - Admin\PantallaColor.resx">
+      <DependentUpon>PantallaColor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vista - Cliente\FormPrincipalCliente.resx">
       <DependentUpon>FormPrincipalCliente.cs</DependentUpon>
@@ -135,6 +177,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vista - Cliente\HistorialClientes.resx">
+      <DependentUpon>HistorialClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista - Cliente\InicioCliente.resx">
       <DependentUpon>InicioCliente.cs</DependentUpon>
     </EmbeddedResource>

@@ -41,7 +41,27 @@ namespace LibreriaADS
 
         private void FormPrincipalAdmin_Load(object sender, EventArgs e)
         {
+            MostrarControl(new Inicio());
+        }
 
+        private void btnColor_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new PantallaColor());
+        }
+
+        private void btnMarca_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new Marca());
+        }
+
+        private void btnCategoria_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new CATEGORÍA());
+        }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new Inicio());
         }
     }
 }

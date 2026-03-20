@@ -112,6 +112,7 @@
             this.btnCategoria.TabIndex = 7;
             this.btnCategoria.Text = "Categorías";
             this.btnCategoria.UseVisualStyleBackColor = true;
+            this.btnCategoria.Click += new System.EventHandler(this.btnCategoria_Click);
             // 
             // btnSalir
             // 
@@ -136,6 +137,7 @@
             this.btnInicio.TabIndex = 4;
             this.btnInicio.Text = "Inicio";
             this.btnInicio.UseVisualStyleBackColor = false;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // btnProducto
             // 
@@ -158,6 +160,7 @@
             this.btnMarca.TabIndex = 2;
             this.btnMarca.Text = "Marcas";
             this.btnMarca.UseVisualStyleBackColor = true;
+            this.btnMarca.Click += new System.EventHandler(this.btnMarca_Click);
             // 
             // btnColor
             // 
@@ -170,6 +173,7 @@
             this.btnColor.TabIndex = 0;
             this.btnColor.Text = "Colores";
             this.btnColor.UseVisualStyleBackColor = false;
+            this.btnColor.Click += new System.EventHandler(this.btnColor_Click);
             // 
             // FormPrincipalAdmin
             // 

@@ -70,6 +70,7 @@
             this.btnHistorial.TabIndex = 6;
             this.btnHistorial.Text = "Historial";
             this.btnHistorial.UseVisualStyleBackColor = true;
+            this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
             // 
             // btnSalir
             // 
@@ -120,7 +121,7 @@
             this.Controls.Add(this.panelMenu);
             this.Name = "FormPrincipalCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormPrincipalCliente";
+            this.Text = "Librería - Clientes ";
             this.Load += new System.EventHandler(this.FormPrincipalCliente_Load);
             this.panelMenu.ResumeLayout(false);
             this.ResumeLayout(false);

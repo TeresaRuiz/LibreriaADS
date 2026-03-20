@@ -33,3 +33,8 @@ C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.exe
 C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.pdb
 C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.InicioCliente.resources
 C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.ProductosClientes.resources
+C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.CATEGORÍA.resources
+C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.Inicio.resources
+C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.Marca.resources
+C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.PantallaColor.resources
+C:\Users\2022\source\repos\LibreriaADS\obj\Debug\LibreriaADS.Vista___Cliente.HistorialClientes.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LibreriaADS.Vista___Cliente;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -55,6 +56,11 @@ namespace LibreriaADS
         private void btnProducto_Click(object sender, EventArgs e)
         {
             MostrarControl(new ProductosClientes());
+        }
+
+        private void btnHistorial_Click(object sender, EventArgs e)
+        {
+            MostrarControl(new HistorialClientes());
         }
     }
 }
